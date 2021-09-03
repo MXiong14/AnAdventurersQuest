@@ -13,10 +13,10 @@ namespace Quest
         public int Awesomeness { get; set; }
 
         // A constructor to make a new Adventurer object with a given name
-        public Adventurer(string name)
+        public Adventurer(string name, int awesomeness)
         {
             Name = name;
-            Awesomeness = 50;
+            Awesomeness = awesomeness;
         }
 
 
